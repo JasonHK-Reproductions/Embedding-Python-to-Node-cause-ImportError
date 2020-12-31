@@ -1,0 +1,24 @@
+{
+  "name": "embedding-python-to-node-cause-importerror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp build",
+    "test": "node ./index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK-Reproductions/Embedding-Python-to-Node-cause-ImportError.git"
+  },
+  "author": "Jason Kwok <foss@jasonhk.email> (https://jasonhk.net)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/JasonHK-Reproductions/Embedding-Python-to-Node-cause-ImportError/issues"
+  },
+  "homepage": "https://github.com/JasonHK-Reproductions/Embedding-Python-to-Node-cause-ImportError#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.1.0"
+  }
+}
